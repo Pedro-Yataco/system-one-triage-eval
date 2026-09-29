@@ -1,0 +1,17 @@
+# Entorno y secretos
+.venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Resultados de corridas y datos reales
+runs/
+data/private/

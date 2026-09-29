@@ -1,0 +1,41 @@
+# Experimento de ejemplo: triaje de tickets (categoría y prioridad) sobre el dataset sintético.
+# Las rutas son relativas a la carpeta desde donde se ejecuta (la raíz del proyecto).
+
+dataset:
+  path: data/example/tickets.csv
+  id_column: id
+  state_fields: [asunto, cuerpo] # columnas que ve el modelo
+
+questions:
+  - name: categoria
+    kind: choice
+    gold_column: categoria
+    instructions: "¿Qué equipo debe atender este ticket?"
+    options:
+      facturacion: "Cobros, facturas, reembolsos, medios de pago o cambios de plan."
+      tecnico: "Errores, caídas, lentitud o fallas de la aplicación y sus integraciones."
+      cuenta: "Acceso, contraseñas, usuarios, permisos o datos del perfil."
+      envios: "Estado, retraso, daño o devolución de pedidos físicos."
+      otro: "Consultas generales, sugerencias o temas que no encajan en las demás categorías."
+
+  - name: prioridad
+    kind: choice
+    gold_column: prioridad
+    instructions: "¿Con qué prioridad debe atenderse este ticket?"
+    options:
+      baja: "Consulta o sugerencia sin impacto; puede esperar varios días."
+      media: "Problema con alternativa disponible; conviene resolverlo esta semana."
+      alta: "Bloquea el trabajo de un cliente o le hace perder dinero; resolver hoy."
+      critica: "Caída general, riesgo de seguridad o pérdida de datos; atender de inmediato."
+
+backends:
+  laya:
+    kind: laya
+    base_url: http://127.0.0.1:8000
+    model: multilingual # los tickets están en español
+
+backend: laya # se puede cambiar con --backend
+
+run:
+  output_dir: runs
+  max_attempts: 3

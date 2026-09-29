@@ -1,0 +1,19 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "categoria": {
+      "type": "choice",
+      "choice": "facturacion",
+      "probabilities": {"facturacion": 0.88, "tecnico": 0.12, "otro": 0.0},
+      "confidence": 0.81
+    },
+    "prioridad": {
+      "type": "score",
+      "score": 1.05,
+      "legend": {"0": "Puede esperar", "1": "Esta semana", "2": "Hoy"},
+      "probabilities": {"0": 0.0, "1": 0.95, "2": 0.05},
+      "confidence": 0.92
+    }
+  },
+  "usage": {"input_tokens": 152, "output_tokens": 0}
+}

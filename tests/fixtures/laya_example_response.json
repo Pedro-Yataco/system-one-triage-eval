@@ -1,0 +1,47 @@
+{
+  "model": "laya-rl-agent",
+  "answers": {
+    "categoria": {
+      "type": "choice",
+      "choice": "facturacion",
+      "probabilities": {
+        "facturacion": 1.0,
+        "tecnico": 0.0,
+        "cuenta": 0.0,
+        "envios": 0.0,
+        "otro": 0.0
+      },
+      "confidence": 1.0,
+      "answer_confidence": 1.0,
+      "action": {
+        "act_probability": 1.0
+      }
+    },
+    "prioridad": {
+      "type": "choice",
+      "choice": "baja",
+      "probabilities": {
+        "baja": 0.948,
+        "media": 0.0181,
+        "alta": 0.0154,
+        "critica": 0.0185
+      },
+      "confidence": 0.8115,
+      "answer_confidence": 0.948,
+      "action": {
+        "act_probability": 1.0
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 274,
+    "output_tokens": 0
+  },
+  "routing": {
+    "model": "multilingual",
+    "repo": "convaiinnovations/laya/multilingual",
+    "reason": "explicit model='multilingual'",
+    "detection": null,
+    "workflow": null
+  }
+}

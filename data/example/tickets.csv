@@ -1,0 +1,21 @@
+id,asunto,cuerpo,categoria,prioridad
+T001,"Cobro duplicado en mi tarjeta","Este mes me cobraron dos veces la suscripción Pro. Necesito que me devuelvan uno de los cargos.",facturacion,media
+T002,"No puedo descargar mis facturas","En el portal de clientes el botón para descargar facturas en PDF no hace nada. Las necesito para mi contabilidad antes del viernes.",tecnico,media
+T003,"Cambio de plan","Quiero pasar del plan Básico al Pro desde el próximo mes. ¿Cómo se calcula el cobro de ese mes?",facturacion,baja
+T004,"Me siguen cobrando después de cancelar","Cancelé mi cuenta hace dos meses y me siguen llegando cargos mensuales. Si no lo resuelven hoy voy a desconocer los cargos con el banco.",facturacion,alta
+T005,"La aplicación no carga","Desde esta mañana la aplicación muestra una pantalla en blanco al iniciar. Probé en dos equipos distintos y pasa lo mismo.",tecnico,alta
+T006,"Caída total del servicio","Ninguno de los 300 usuarios de nuestra empresa puede entrar a la plataforma. El sitio responde con error 503 y estamos detenidos.",tecnico,critica
+T007,"Falla la integración con Shopify","La sincronización de pedidos con Shopify falla desde ayer con el mensaje ""token inválido"". Ya reconecté la integración y sigue igual.",tecnico,alta
+T008,"Reportes muy lentos","Los reportes mensuales tardan más de cinco minutos en generarse. Podemos esperar, pero antes tardaban segundos.",tecnico,media
+T009,"No llega el correo para restablecer la contraseña","Olvidé mi contraseña y el correo para restablecerla no me llega. Ya revisé la carpeta de spam.",cuenta,media
+T010,"Agregar una usuaria","¿Cómo le doy acceso a una nueva colaboradora con permisos solo de lectura?",cuenta,baja
+T011,"Acceso sospechoso a mi cuenta","Recibí una alerta de inicio de sesión desde otro país y no fui yo. Cambiaron el correo de mi cuenta y ya no puedo entrar.",cuenta,critica
+T012,"Actualizar el correo de la cuenta","Me cambié de empresa y quiero actualizar el correo asociado a mi perfil.",cuenta,baja
+T013,"Pedido atrasado","Mi pedido 48213 debía llegar el lunes y el seguimiento no se actualiza desde hace cuatro días.",envios,media
+T014,"El producto llegó dañado","La caja llegó aplastada y el monitor tiene la pantalla rota. Adjunto fotos. Quiero un reemplazo.",envios,alta
+T015,"Devolver un pedido","Compré una talla equivocada. ¿Cuál es el procedimiento para devolverla?",envios,baja
+T016,"Cambiar la dirección de entrega","¿Puedo cambiar la dirección de entrega de un pedido que ya está en camino?",envios,media
+T017,"Sugerencia: modo oscuro","Sería genial que la aplicación tuviera modo oscuro.",otro,baja
+T018,"Consulta sobre oficinas","¿Tienen oficinas en Lima? Me gustaría conversar con alguien en persona.",otro,baja
+T019,"Datos de clientes expuestos","Un reporte compartido con enlace público muestra nombres y correos de nuestros clientes a cualquiera que tenga la URL.",tecnico,critica
+T020,"Factura con datos incorrectos","La razón social de mis facturas está mal escrita y necesito corregirla antes del cierre contable de mañana.",facturacion,alta

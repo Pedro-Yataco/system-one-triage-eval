@@ -1,0 +1,601 @@
+﻿id,texto,accion,casuistica,subtipo,dificultad,referencias
+P001,"Asunto: Re: 300-425710 - Warning memory utilization (>90% for 15m) - QHPERP01
+Cuerpo: Por favor generar ticket a Basis para su revisión; el consumo viene del proceso de actualización de SAP.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120235102777261294946568CU08
+P002,"Asunto: RE: Solicitud de ampliación de buzón de correo - [#SR-315620]
+Cuerpo: Estimados de CECOM, con respecto al ticket #SR-315620, ¿en qué estado se encuentra? Aún no vemos el cambio en el buzón.",escalar,SEGUIMIENTO_TICKET,,directa,
+P003,"Asunto: Pedidos para el viernes
+Cuerpo: Hola CECOM, por favor registrar: 1) ticket a Wintel para reiniciar SBLCTX01 en la ventana, 2) ticket a Monitoreo para silenciar sus alertas durante el reinicio.",escalar,MULTI_GESTION,,directa,
+P004,"Asunto: RE: 100-520000 - creación de VLAN
+Cuerpo: Cancelar el pedido 100-520000, se usará la VLAN existente.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P005,"Asunto: RE: Coordinación de visita técnica
+Cuerpo: Confirmo la visita del técnico el jueves a las 10:00.",descartar,OTROS,CONFIRMACION,directa,
+P006,"Asunto: RE: Estado del respaldo mensual
+Cuerpo: Perfecto, quedamos conformes con el resultado.",descartar,OTROS,CONFIRMACION,engañosa,
+P007,"Asunto: RE: Configuración de SSID para equipos IoT
+Cuerpo: Favor indicar el ticket registrado para esta solicitud.",escalar,SEGUIMIENTO_TICKET,,directa,
+P008,"Asunto: Cambio de cargo en directorio activo
+Cuerpo: Cambiar el cargo del usuario Walter Espinar a Jefe de Mantenimiento en el directorio activo.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P009,"Asunto: RE: Solicitud de snapshot
+Cuerpo: Snapshot validado, gracias.",descartar,OTROS,CONFIRMACION,directa,
+P010,"Asunto: RE: Cotización de ampliación de almacenamiento
+Cuerpo: Aprobamos la cotización enviada. Gracias.",descartar,OTROS,CONFIRMACION,directa,
+P011,"Asunto: RE: Revisión de performance en base de datos de ventas
+Cuerpo: Hola equipo, ¿novedades? Seguimos con tiempos de respuesta altos en el sistema.",escalar,SEGUIMIENTO_TICKET,,indirecta,
+P012,"Asunto: RE: Estado de la solicitud de accesos VPN
+Cuerpo: Buenas, ¿en qué quedó la solicitud de accesos VPN? No hemos tenido noticias.",escalar,SEGUIMIENTO_TICKET,,indirecta,
+P013,"Asunto: Aviso de seguridad: correos de phishing
+Cuerpo: Se detectó una campaña de phishing que suplanta a la mesa de ayuda; no abrir enlaces de remitentes desconocidos.",descartar,OTROS,NOTIFICACION,directa,
+P014,"Asunto: RE: Solicitud de desbloqueo de web
+Cuerpo: Favor cancelar la solicitud 100-520180, se usará otro portal.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P015,"Asunto: RE: Asistencia técnica: reserva de IPs para nuevos colaboradores - [#SR-311907]
+Cuerpo: Hola CECOM, favor de actualizar tk: se envía la información pendiente del tercer colaborador (usuario, área y equipo asignado).",escalar,ACTUALIZACION_TICKET,,directa,/runs/08584120311397443814387941611CU08
+P016,"Asunto: RE: RITM0061880 - Transporte de órdenes SAP a producción
+Cuerpo: RITM0061880: ¿en qué estado está? El usuario necesita el transporte para el cierre.",escalar,SEGUIMIENTO_TICKET,,directa,
+P017,"Asunto: Alta de usuario en VPN
+Cuerpo: Favor crear el usuario VPN para lparedes@intikapital.pe con acceso al segmento de tesorería.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P018,"Asunto: No se puede acceder a servidor
+Cuerpo: No se puede acceder a ningún recurso del servidor 10.12.88.40; favor revisar urgente.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584119294778025298233024433CU31
+P019,"Asunto: RE: Informe de respaldos de servidores críticos
+Cuerpo: No se tiene respuesta aún a esta solicitud. ¿Podrían darnos una fecha estimada?",escalar,SEGUIMIENTO_TICKET,,directa,
+P020,"Asunto: Notificación automática: nuevo comentario en [#SR-318800]
+Cuerpo: Se agregó un nuevo comentario al ticket #SR-318800: «Se coordinó la visita técnica para el jueves».",descartar,OTROS,NOTIFICACION,engañosa,
+P021,"Asunto: Aumento de memoria en máquina virtual
+Cuerpo: Hola Ernesto, se requiere aumentar la memoria de BAZLNX05 de 16 GB a 32 GB.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P022,"Asunto: RE: Proyecto de remediación de vulnerabilidades - accesos AWS
+Cuerpo: No se puede ingresar a la consola; por favor generar ticket a @KORVEN: Administradores Cloud Público.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119265126966781698976323CU15
+P023,"Asunto: RE: Cambio de proveedor de enlace en sede Piura
+Cuerpo: El enlace nuevo lo instala NOC el lunes y Monitoreo debe dar de alta los sensores el mismo día; necesitamos ambas atenciones registradas.",escalar,MULTI_GESTION,,indirecta,
+P024,"Asunto: RE: Apoyo de Cloud AWS - requerimientos para deployment inicial
+Cuerpo: Team CECOM, ¿nos envían el número de ticket, por favor? Muchas gracias.",escalar,SEGUIMIENTO_TICKET,,directa,/runs/08584120357633764779369085944CU30
+P025,"Asunto: RE: Falla en job de backup diario de BAZLNX05 - 300-421812
+Cuerpo: El job falló de nuevo anoche con el mismo error de cinta. El ticket quedó resuelto el martes, pero el problema persiste; que se retome en ese mismo ticket.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P026,"Asunto: Recordatorio: capacitación de uso de la nueva consola
+Cuerpo: Les recordamos la capacitación del jueves a las 15:00 sobre la nueva consola de monitoreo.",descartar,OTROS,NOTIFICACION,engañosa,
+P027,"Asunto: RE: 300-421777 - Aguas del Valle Norte - servicio SFTP detenido
+Cuerpo: Se volvió a detener el servicio SFTP. Reabran el ticket 300-421777, por favor.",escalar,ACTUALIZACION_TICKET,,directa,
+P028,"Asunto: RE: Revisión de alertas de memoria en servidor de reportes
+Cuerpo: ¿Alguna novedad sobre esto? Seguimos viendo las alertas en la consola.",escalar,SEGUIMIENTO_TICKET,,indirecta,
+P029,"Asunto: RE: Habilitación de puertos para aplicación de tesorería
+Cuerpo: Seguimos a la espera de alguna respuesta sobre lo solicitado la semana pasada.",escalar,SEGUIMIENTO_TICKET,,indirecta,
+P030,"Asunto: Caída del sistema de trámites - 300-426230
+Cuerpo: Se generó el TK 300-426230; generar P1 por caída del sistema de trámites.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120130170779754057281398CU31
+P031,"Asunto: RE: [#SR-315990] Instalación de software de diseño en laptops de ingeniería
+Cuerpo: Buenas tardes, ¿nos pueden compartir el status del SR-315990?",escalar,SEGUIMIENTO_TICKET,,directa,
+P032,"Asunto: RE: Incidente de correo y de VPN esta mañana
+Cuerpo: Son dos problemas distintos: el correo no sincroniza en móviles y la VPN no conecta desde casa. Que cada uno quede registrado con su equipo.",escalar,MULTI_GESTION,,indirecta,
+P033,"Asunto: RE: Renovación del certificado SSL wildcard
+Cuerpo: Validado.",descartar,OTROS,CONFIRMACION,directa,/runs/08584119383895900155558046678CU11
+P034,"Asunto: Restauración de archivos eliminados
+Cuerpo: Restaurar la carpeta \\SBRFS02\Legal\Contratos2025 a su versión del viernes a las 18:00.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P035,"Asunto: Creación de SSID para equipos IoT en planta Pisco
+Cuerpo: Por favor su apoyo con la creación de un SSID oculto con autenticación por MAC: WIFI-IOT. Registrar la MAC 3C:71:BF:22:9A:10 para las pruebas.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584120287958507627243873418CU09
+P036,"Asunto: RE: Priorizar alerta de disco C:\ en QSRAPP07 - [#SR-315008]
+Cuerpo: Buenos días @Centro de Comando, favor indicar el ticket registrado a @KORVEN: Administradores Wintel.",escalar,SEGUIMIENTO_TICKET,,directa,/runs/08584120355700768753097761214CU15
+P037,"Asunto: Acceso remoto para proveedor
+Cuerpo: @Marisol Ccori, habilitar acceso remoto temporal por 48 horas para el proveedor de balanzas al servidor BAZAPP02.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P038,"Asunto: RE: Solicitud de ampliación de memoria en BAZLNX05
+Cuerpo: Cancelar la solicitud, se decidió migrar el servicio a otro servidor.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P039,"Asunto: RE: 100-515877 : Solicitud de servicio - restauración de carpeta
+Cuerpo: Nos podrían indicar el avance del ticket 100-515877, por favor. La usuaria necesita los archivos hoy.",escalar,SEGUIMIENTO_TICKET,,directa,
+P040,"Asunto: RE: Depuración de alertas antiguas
+Cuerpo: Favor cerrar los tickets 300-425301, 300-425302 y 300-425305; las alertas ya no aplican porque los servidores se dieron de baja.",escalar,MULTI_GESTION,,directa,
+P041,"Asunto: RE: Descarga de documentos detectados como malware - [#SR-317330]
+Cuerpo: Favor el apoyo con el ticket a @KORVEN: Administradores Cloud Público para revisar la cuarentena de los archivos.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119256841872672161313105CU01
+P042,"Asunto: RE: Ventana de mantenimiento para parchado de servidores Linux - CHN-5120
+Cuerpo: Hubo un cambio en la ventana del CHN-5120: se ejecutará el sábado de 23:00 a 03:00, no el domingo. Consideren la nueva fecha en el ticket.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P043,"Asunto: RE: Solicitud de reporte de usuarios con MFA deshabilitado
+Cuerpo: Con respecto a la auditoría, generar ticket a Cloud Público para obtener el listado de usuarios sin MFA del tenant.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,
+P044,"Asunto: RE: Ticket 100-519370 atendido
+Cuerpo: Conforme, gracias.",descartar,OTROS,CONFIRMACION,engañosa,
+P045,"Asunto: RE: Informe de vulnerabilidades del último escaneo
+Cuerpo: ¿Nos pueden confirmar si ya se registró lo que pedimos? No encontramos ningún número de caso.",escalar,SEGUIMIENTO_TICKET,,indirecta,
+P046,"Asunto: RE: Revisión de lentitud en portal de proveedores
+Cuerpo: Se valida en el ticket https://soporte.qhapaq.pe/helpdesk/tickets/315512 que sigue en estado pendiente. ¿Hay alguna novedad?",escalar,SEGUIMIENTO_TICKET,,indirecta,
+P047,"Asunto: RE: Accesos a base de datos Informix - SCA2026-011560
+Cuerpo: Su apoyo generando el ticket de requerimiento a la torre de BD para la baja de accesos de los usuarios listados.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119358954557834466712272CU18
+P048,"Asunto: RE: #SR-318240 Solicitud de licencia de Visio
+Cuerpo: Estimados de CECOM, con respecto al ticket: asignar una licencia de Visio a la usuaria gordonez@caunidos.pe.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,
+P049,"Asunto: TK # 100-518330 ==> RE: Copia de LUN para sistema de telemetría
+Cuerpo: Buenos días; se ha generado el TK # 100-518330 para la presente atención.",descartar,OTROS,NOTIFICACION,engañosa,/runs/08584119438459550117261240431CU27
+P050,"Asunto: Cambio de horario de atención presencial
+Cuerpo: Desde el lunes el soporte presencial en la sede central será de 08:00 a 18:00.",descartar,OTROS,NOTIFICACION,directa,
+P051,"Asunto: Alerta resuelta: High URL is down on portal de clientes
+Cuerpo: La alerta se resolvió en 12 minutos. Estado actual: OK.",descartar,OTROS,NOTIFICACION,directa,
+P052,"Asunto: RE: 300-421190 - Logística Puerto Anca - lentitud en WMS
+Cuerpo: Favor modificar la prioridad del ticket 300-421190 a P2: ya son tres almacenes afectados.",escalar,ACTUALIZACION_TICKET,,directa,
+P053,"Asunto: RE: Alerta de temperatura en sala de servidores
+Cuerpo: Falsa alarma, el sensor estaba mal calibrado. Cerrar el ticket 300-427950.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P054,"Asunto: RE: Horario de soporte presencial
+Cuerpo: Entendido, gracias por el aviso.",descartar,OTROS,CONFIRMACION,directa,
+P055,"Asunto: RE: Configuración de regla de firewall
+Cuerpo: Validado, la aplicación ya conecta.",descartar,OTROS,CONFIRMACION,directa,
+P056,"Asunto: RE: Correos rebotados desde el dominio del proveedor - [#INC-313555]
+Cuerpo: Nos cerraron el incidente, pero seguimos sin recibir correos de proveedoresandes.com. Necesitamos que se retome.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P057,"Asunto: RE: 300-418990 - Minera Qori Sur - VPN site-to-site caída
+Cuerpo: El túnel volvió a caerse esta madrugada. Favor reabrir el incidente 300-418990, el problema no quedó resuelto.",escalar,ACTUALIZACION_TICKET,,directa,
+P058,"Asunto: RE: Solicitud de accesos a consola AWS - proyecto de remediación
+Cuerpo: Es una actualización del tk 100-513102: se suman dos usuarios más al pedido, rgalvez y mespinoza, con el mismo perfil de solo lectura.",escalar,ACTUALIZACION_TICKET,,directa,
+P059,"Asunto: URGENTE - configurar firewall para restringir páginas web
+Cuerpo: Agradeceré generar un ticket para el equipo de SOC para restringir en el firewall el acceso a páginas de transferencia de archivos y redes sociales.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120342444079051232827808CU30
+P060,"Asunto: RE: Incorporación de nueva sede en Trujillo
+Cuerpo: Para la nueva sede necesitamos que NOC configure el enlace y que Wintel prepare el servidor de archivos; cada equipo con su ticket.",escalar,MULTI_GESTION,,indirecta,
+P061,"Asunto: Creación de base de datos para nuevo sistema
+Cuerpo: @Andrés Mollehuanca, crear la base de datos INVENTARIO_QA en el servidor PANSQL04 con collation Modern_Spanish_CI_AS.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P062,"Asunto: Configuración de Power Automate con SharePoint
+Cuerpo: Conectar el flujo de Power Automate de aprobaciones al nuevo sitio de SharePoint de Compras.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P063,"Asunto: RE: Acceso a carpeta compartida de Finanzas - [#SR-312877]
+Cuerpo: Nos indican que el caso está cerrado, pero la usuaria sigue sin poder abrir la carpeta. Por favor retomar la atención en el mismo ticket.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P064,"Asunto: RE: 200-17600 Parchado de servidores Windows - sábado
+Cuerpo: @Centro de Comando, favor proceder. Gracias.",descartar,OTROS,CONFIRMACION,engañosa,/runs/08584119252111805799172984332CU24
+P065,"Asunto: Ventana de parchado - servidores Windows
+Cuerpo: Durante la ventana de parchado de esta noche los servidores del listado se reiniciarán; favor de no generar incidencias por las alertas.",descartar,OTROS,NOTIFICACION,engañosa,
+P066,"Asunto: RE: 300-422811 - Seguros Alborada - caída de portal de corredores
+Cuerpo: Es una actualización del incidente 300-422811: el portal volvió a responder a las 11:20, pero con lentitud.",escalar,ACTUALIZACION_TICKET,,directa,
+P067,"Asunto: Aviso: corte de energía programado en data center
+Cuerpo: El proveedor eléctrico realizará un corte programado el domingo; los equipos operarán con el grupo electrógeno.",descartar,OTROS,NOTIFICACION,directa,
+P068,"Asunto: RE: Solicitud de creación de usuario SAP
+Cuerpo: Cancelar la solicitud 100-519650, el analista finalmente no ingresará a la empresa.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P069,"Asunto: Ampliación de disco en servidor de archivos
+Cuerpo: Estimados CECOM, favor ampliar en 200 GB la unidad D: del servidor SBRFS02; está al 94 %.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P070,"Asunto: RE: Restauración de base de datos de pruebas - 100-515102
+Cuerpo: La restauración quedó incompleta: faltan las tablas del esquema de ventas. El ticket se cerró antes de tiempo; necesitamos que siga abierto hasta completarla.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P071,"Asunto: Re: [#INC-318300] Pantalla azul en equipos de caja
+Cuerpo: Con respecto al incidente reportado, favor revisar las cuatro PC de caja de la tienda Surco; muestran pantalla azul al iniciar.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,
+P072,"Asunto: RE: Error al iniciar BD de reportes
+Cuerpo: Se genera el TK de cambio por emergencia 200-17510, son ambientes no productivos.",descartar,OTROS,NOTIFICACION,engañosa,/runs/08584120360081985739686980313CU27
+P073,"Asunto: RE: Error apps Fiori #317990
+Cuerpo: Favor el apoyo con el ticket a @KORVEN: TEAM SAP BASIS para revisar el error de autorización en la app de aprobaciones.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119458321025203601322537CU25
+P074,"Asunto: RE: 200-17015 Migración de LUNs del servidor QHPERP01
+Cuerpo: Se informa a los coordinadores de las torres que el cambio 200-17015 se ha cancelado por falta de aprobación del cliente.",descartar,OTROS,NOTIFICACION,engañosa,/runs/08584120290904002827278261094CU08
+P075,"Asunto: RE: Retención de logs en servidores web
+Cuerpo: Favor configurar la rotación de logs en AVNWEB01 y AVNWEB02 para conservar solo 30 días.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P076,"Asunto: Revisión urgente en Microsoft Purview
+Cuerpo: Por favor su apoyo con carácter urgente revisando el inconveniente en Purview: las etiquetas de confidencialidad no se aplican a los correos salientes.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584119386051950068309281639CU16
+P077,"Asunto: RE: 300-423305 - Clínica Santa Brígida - alerta de replicación de base de datos
+Cuerpo: Favor actualizar el ticket a @KORVEN: S.TEC. - DBA; la replicación entre nodos es de su alcance.",escalar,ACTUALIZACION_TICKET,,directa,
+P078,"Asunto: RE: Solicitud de reporte de consumo de nube - agosto
+Cuerpo: Hola, retomo este hilo: ¿para cuándo tendríamos el reporte?",escalar,SEGUIMIENTO_TICKET,,indirecta,
+P079,"Asunto: RE: Solicitud de acceso a VPN corporativa - [#SR-310482]
+Cuerpo: @Centro de Comando, favor actualizar el ticket a @KORVEN: Administradores Cloud Público; ellos tienen el alcance de la VPN.",escalar,ACTUALIZACION_TICKET,,directa,/runs/08584120350408576985059738186CU12
+P080,"Asunto: RE: 300-425010 - incidente de red en sede Arequipa
+Cuerpo: Actualizar el 300-425010 a NOC y generar un ticket a Facilities para revisar la energía del rack.",escalar,MULTI_GESTION,,directa,
+P081,"Asunto: RE: Solicitud de sesión con especialista
+Cuerpo: Hola Silvia, cancelen la sesión solicitada, ya resolvimos la duda.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P082,"Asunto: Bloqueo de IP sospechosa
+Cuerpo: Se informa que CyberSOC confirmó un escaneo desde la IP 203.0.113.45; favor bloquearla en el firewall perimetral.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584119376737719751185610377cU14;/runs/08584119364912564466118325100CU24
+P083,"Asunto: Re: TK # 100-518402 ==> Restaurar carpeta en servidor SBRFS02
+Cuerpo: Conforme con la restauración. Gracias.",descartar,OTROS,CONFIRMACION,engañosa,/runs/08584119352262513440671470962CU17
+P084,"Asunto: RE: 300-428100 - job de integración fallido
+Cuerpo: El job se ejecutó bien en el reintento automático; pueden cerrar el caso 300-428100.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P085,"Asunto: RE: Revisión de cobertura WiFi en sala de visitas
+Cuerpo: Hola @Rodrigo Salcedo, ¿nos comentas sobre el avance del ticket 300-417552? Quedo atenta.",escalar,SEGUIMIENTO_TICKET,,directa,/runs/08584120225564294078484335353CU29
+P086,"Asunto: RE: Cambio 200-17555 ejecutado
+Cuerpo: Se informa que el cambio 200-17555 se ejecutó correctamente y sin impacto en la operación.",descartar,OTROS,NOTIFICACION,engañosa,
+P087,"Asunto: RE: Ticket 100-518010 atendido - nueva solicitud
+Cuerpo: El ticket anterior quedó conforme. Ahora necesitamos crear el usuario ext_vhuamani en la base de datos de reportes con perfil de lectura.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,
+P088,"Asunto: SOLICITUD: ventana de mantenimiento prolongada - exclusión de alertas (15 días)
+Cuerpo: Solicito su apoyo para colocar en modo mantenimiento los servidores AVNAPP01 y AVNAPP02 en sus herramientas de monitoreo por 15 días.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584120252374035017452603689CU25
+P089,"Asunto: RE: Pedido de snapshot de servidores
+Cuerpo: Cancelar el snapshot solicitado para hoy; el pase se postergó sin fecha.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P090,"Asunto: Re: Solicitud de acceso y equipo - [#SR-318601]
+Cuerpo: Respecto al ticket: se procedió con los perfiles solicitados en SAP y correo.",descartar,OTROS,NOTIFICACION,engañosa,/runs/08584119289491972718940996258CU22
+P091,"Asunto: RE: Solicitud de acceso a carpeta de planos
+Cuerpo: Ya pude ingresar, gracias.",descartar,OTROS,CONFIRMACION,directa,
+P092,"Asunto: RE: Tickets generados por error de destinatario
+Cuerpo: Favor cancelar los tickets 100-517400 y 100-517401; el pedido correcto es el que se envió hoy a DBA.",escalar,MULTI_GESTION,,directa,
+P093,"Asunto: RE: Revisión de la sede de Chimbote
+Cuerpo: Además de revisar el switch de la sede, que es tema de NOC, hay que actualizar el caso abierto 300-425500 con esta información.",escalar,MULTI_GESTION,,indirecta,
+P094,"Asunto: RE: 300-422520 - Pesquera Bahía Azul - alerta de temperatura en sala de servidores
+Cuerpo: Favor de agregar al incidente 300-422520 la lectura del sensor de las 14:00 (31 °C) y la foto del aire acondicionado apagado.",escalar,ACTUALIZACION_TICKET,,directa,
+P095,"Asunto: RE: 200-17750 - reinicio programado
+Cuerpo: Anular el cambio 200-17750, el reinicio no fue aprobado.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P096,"Asunto: Pase a producción N.° 112 - servicio web de citas
+Cuerpo: @Centro de Comando, por favor crear 2 tickets: 1) a Aplicaciones SAP para desplegar el transporte y 2) a Gestión de Monitoreo para poner en mantenimiento las alertas durante la ventana.",escalar,MULTI_GESTION,,directa,/runs/08584120125283521138087839478CU26
+P097,"Asunto: RE: [#INC-314400] Correo no llega a lista de distribución de Operaciones
+Cuerpo: Actualizar el ticket a @KORVEN: Administradores Cloud Público, la lista está en el tenant de Microsoft 365.",escalar,ACTUALIZACION_TICKET,,directa,
+P098,"Asunto: RE: Accesos a consola AWS
+Cuerpo: Recibido, gracias CECOM.",descartar,OTROS,CONFIRMACION,directa,
+P099,"Asunto: RE: Revisión de causa raíz del reinicio de servidor AVNWEB01
+Cuerpo: ¿Ya tienen el informe de causa raíz? Nos lo pidió la gerencia para hoy.",escalar,SEGUIMIENTO_TICKET,,indirecta,
+P100,"Asunto: Respuesta automática: [#SR-319020]
+Cuerpo: Su ticket #SR-319020 fue recibido y asignado a la cola de soporte.",descartar,OTROS,NOTIFICACION,engañosa,
+P101,"Asunto: Actividades para el cierre de mes
+Cuerpo: Favor generar los siguientes tickets para las actividades: 1) ampliar el tablespace de reportes en la BD de contabilidad, 2) reiniciar el servicio de colas en QHPERP01, 3) validar los backups del fin de semana.",escalar,MULTI_GESTION,,directa,
+P102,"Asunto: RE: Solicitud de restauración de carpeta en SBRFS02 - [#SR-314120]
+Cuerpo: Reasignar el ticket a @KORVEN: Backups y Restores; la carpeta solo existe en el respaldo del viernes.",escalar,ACTUALIZACION_TICKET,,directa,
+P103,"Asunto: RE: Tickets de la semana pasada
+Cuerpo: Favor cerrar el 100-517210, que ya fue atendido, y reabrir el 100-517198, porque la usuaria sigue sin acceso.",escalar,MULTI_GESTION,,directa,
+P104,"Asunto: RE: RITM0063120 - SAP: habilitación de transacción ZVEN045
+Cuerpo: Favor su apoyo con el siguiente requerimiento: agregar la transacción ZVEN045 al rol Z_VENTAS_ANALISTA en todos los ambientes.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,
+P105,"Asunto: RE: INC0052330 - error en impresión de guías de remisión
+Cuerpo: Estimados, favor su apoyo con la revisión del siguiente incidente: las guías salen sin el código de barras desde la actualización de ayer.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120304633430065024037247CU05
+P106,"Asunto: Alertas vigentes del Zabbix al 2026-10-02
+Cuerpo: Se remiten las alertas vigentes de Zabbix para sus revisiones.",descartar,OTROS,NOTIFICACION,directa,/runs/08584119314363280448374508523CU00;/runs/08584120177072837581581199758CU31
+P107,"Asunto: RE: Revisión de lentitud en VPN de usuarios remotos - [#INC-316555]
+Cuerpo: Buen día, ¿hubo algún avance desde la última reunión?",escalar,SEGUIMIENTO_TICKET,,indirecta,
+P108,"Asunto: RE: INC0051920 - Error en carga masiva de pedidos
+Cuerpo: Ticket : INC0051920. Favor de enviar estado del ticket.",escalar,SEGUIMIENTO_TICKET,,directa,
+P109,"Asunto: RE: 100-519900 : Solicitud de servicio - buzón compartido
+Cuerpo: Favor cerrar la solicitud 100-519900; el buzón se creó en otro ticket.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P110,"Asunto: RE: I-0013390 - pérdida de conectividad en garita principal
+Cuerpo: Para informarle que se está trabajando con el ticket del portal TI: I-0013390.",descartar,OTROS,NOTIFICACION,engañosa,/runs/08584120299697939793369817754CU04
+P111,"Asunto: [AT]-[WO]-Creación de recursos para entorno de pruebas
+Cuerpo: Darle prioridad 1, por favor: se requiere crear recursos en la cuenta de pruebas guiándose de la VM y de la base Aurora existentes.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119319042499690703416837CU12
+P112,"Asunto: RE: Revisión de políticas de acceso al segmento 192.168.40.0/23
+Cuerpo: Estimados, por favor su soporte; esta solicitud sigue sin respuesta desde el lunes.",escalar,SEGUIMIENTO_TICKET,,directa,
+P113,"Asunto: Re: INC - SOC-518350 - Escalamiento de privilegios en instancia cloud
+Cuerpo: Su apoyo con generar ticket para Cloud Público: se valida que una instancia está expuesta a internet con el puerto 22 abierto.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120315809623565173067486CU03
+P114,"Asunto: RE: Estado del enlace de respaldo
+Cuerpo: El enlace de respaldo de la sede sur opera con normalidad desde las 10:00.",descartar,OTROS,NOTIFICACION,engañosa,
+P115,"Asunto: RE: Solicitud de apagado de servidores de pruebas
+Cuerpo: Amable recordatorio: seguimos esperando la confirmación de esta solicitud.",escalar,SEGUIMIENTO_TICKET,,directa,
+P116,"Asunto: Habilitar puertos para aplicación de tesorería
+Cuerpo: Habilitar los puertos TCP 8443 y 9443 entre 10.40.3.0/24 y el servidor IKPAPP05.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P117,"Asunto: RE: Consulta sobre alcance del contrato de soporte
+Cuerpo: Según lo conversado, la atención solicitada no está dentro del alcance del contrato; se enviará la cotización por separado.",descartar,OTROS,NOTIFICACION,directa,/runs/08584120145691934554596940887CU06
+P118,"Asunto: HANAQAS - creación de índice
+Cuerpo: Crear ticket a BD para la creación del siguiente índice en QAS: IDX_VENTAS_FECHA sobre la tabla VENTAS_DET.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119312051120760717876571CU05
+P119,"Asunto: RE: 300-421560 - Financiera Inti Kapital - error de login en banca web
+Cuerpo: Adjunto los logs del balanceador entre las 09:10 y las 09:40 para que se agreguen al ticket 300-421560.",escalar,ACTUALIZACION_TICKET,,directa,
+P120,"Asunto: RE: Nota de seguridad SAP 3801122
+Cuerpo: Gracias, Silvia.",descartar,OTROS,CONFIRMACION,directa,/runs/08584120304001162501450598257CU10
+P121,"Asunto: RE: Creación de grupo de seguridad en Entra ID - [#SR-316901]
+Cuerpo: Agradeceremos nos informen el estado del SR-316901.",escalar,SEGUIMIENTO_TICKET,,directa,
+P122,"Asunto: RE: Aprobación de cambio 200-17640
+Cuerpo: Aprobado. Pueden ejecutar el cambio en la ventana indicada.",descartar,OTROS,CONFIRMACION,engañosa,
+P123,"Asunto: Nueva regla de correo
+Cuerpo: Hola Fabricio, crear una regla de transporte para que los correos con adjuntos .exe se envíen a cuarentena.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P124,"Asunto: RE: Solicitud de configuración del servicio de WiFi en sede Ica
+Cuerpo: Team CECOM, favor de generar ticket REQ regularizando el caso.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120259370650100294228224CU03
+P125,"Asunto: RE: 300-427220 - caída de enlace MPLS
+Cuerpo: Confirmamos que el enlace está estable desde las 11:00. Gracias.",descartar,OTROS,CONFIRMACION,engañosa,
+P126,"Asunto: Fwd: Asistencia técnica: no llegan correos del dominio proveedorandes.com - [#INC-317120]
+Cuerpo: Estimados de CECOM, con respecto al ticket : #INC-317120, su apoyo con lo reportado por el usuario rvilca@qhapaq.pe: no le llegan correos de ese dominio desde ayer.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119341334683612426007311CU21
+P127,"Asunto: RE: RITM0061034 - Alta de usuario en SAP para nuevo analista
+Cuerpo: Ticket : RITM0061034. ¿Nos confirman si ya fue asignado a un especialista?",escalar,SEGUIMIENTO_TICKET,,directa,
+P128,"Asunto: RE: 100-517030 y 100-517031 - accesos para auditores
+Cuerpo: Favor actualizar ambos tickets: los usuarios deben quedar habilitados hasta el 30 de octubre y no hasta el 15.",escalar,MULTI_GESTION,,directa,
+P129,"Asunto: RE: Qori Sur #SR-309125 Mejoras BD - baja de base de datos de instancia de pruebas
+Cuerpo: Buenos días, amable recordatorio sobre esta solicitud. Gracias.",escalar,SEGUIMIENTO_TICKET,,directa,/runs/08584120202229674969091866441CU09;/runs/08584120201920674937901612004CU28
+P130,"Asunto: RE: [M365] Creación de cuentas externas para CyberOps - [#SR-317002]
+Cuerpo: Favor el apoyo con los tickets: 1. creación de las cuentas en el tenant, 2. asignación de licencia antispam a las listas de distribución.",escalar,MULTI_GESTION,,directa,/runs/08584120298615676781633524381CU20
+P131,"Asunto: RE: Integración de datos con el sistema de planeamiento
+Cuerpo: Team CECOM, favor de generar ticket REQ para el equipo de Cloud Público.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120357900684226558763228CU28
+P132,"Asunto: Creación de usuario SAP
+Cuerpo: Crear el usuario SAP de Hugo Cahuana en PRD de acuerdo al archivo adjunto; reemplaza al usuario WESPINAR.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P133,"Asunto: RE: Desbloqueo de usuario de red de Diana Huertas - [#SR-314511]
+Cuerpo: El usuario se volvió a bloquear a los diez minutos. Favor reabrir el SR-314511.",escalar,ACTUALIZACION_TICKET,,directa,
+P134,"Asunto: RE: Problema con licencia de Office en servidor RPA
+Cuerpo: @Centro de Comando, favor derivar el ticket 100-514733 al especialista de turno de Cloud Público; Wintel ya validó que no es del sistema operativo.",escalar,ACTUALIZACION_TICKET,,directa,
+P135,"Asunto: RE: Configuración de VLAN para red OT en planta Pisco - [#SR-314001]
+Cuerpo: Corrección a lo enviado: la VLAN es la 2036 y no la 2063. El segmento sí es el correcto.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P136,"Asunto: RE: Restauración de buzón - [#SR-319210]
+Cuerpo: Todo correcto, la usuaria ya ve sus correos. Gracias por la rapidez.",descartar,OTROS,CONFIRMACION,engañosa,
+P137,"Asunto: Fwd: Asistencia técnica: deshabilitar cuentas de sala - [#SR-317455]
+Cuerpo: Su apoyo con ticket a Cloud P. Deshabilitar las cuentas de correo de las salas de reuniones del piso 4.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119393776749524679879078CU29
+P138,"Asunto: RE: Reserva de IPs para cámaras de seguridad - [#SR-313240]
+Cuerpo: Faltaba la información de la sede Ate: segmento 172.18.22.0/24, 14 cámaras, VLAN 61. Con eso queda completo lo solicitado en el SR.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P139,"Asunto: RE: Nota de seguridad SAP - service request
+Cuerpo: Es conforme.",descartar,OTROS,CONFIRMACION,directa,/runs/08584119254659112532057272019CU15
+P140,"Asunto: RE: Upgrade SAP Fiori caso 551204/2026
+Cuerpo: De acuerdo. Favor el apoyo con el ticket a @KORVEN: TEAM SAP BASIS para aplicar la nota en QAS.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120358787156795554726419CU26
+P141,"Asunto: RE: Solicitud de actualización de firmware en storage
+Cuerpo: Se solicita actualizar el firmware de los controladores del storage principal en la próxima ventana.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,
+P142,"Asunto: RE: Tickets de cambio de la semana
+Cuerpo: Actualizar los cambios 200-17305 y 200-17306 con la nueva ventana: domingo de 02:00 a 05:00.",escalar,MULTI_GESTION,,directa,
+P143,"Asunto: Error en backup diario 15/09
+Cuerpo: Favor su apoyo revisando la tarea de backup del servidor ALBFS01, que mostró error en su ejecución de anoche.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584120152731786767282443805CU01
+P144,"Asunto: RE: Resultado de restauración de prueba
+Cuerpo: Excelente, gracias por la confirmación.",descartar,OTROS,CONFIRMACION,directa,
+P145,"Asunto: Novedades de la plataforma cloud
+Cuerpo: Conozca las nuevas funcionalidades disponibles este mes en su consola de nube.",descartar,OTROS,NOTIFICACION,directa,
+P146,"Asunto: RE: Caída intermitente del enlace MPLS sede Chiclayo - 300-420876
+Cuerpo: Hola Julio, por favor derivar el incidente 300-420876 a NOC; ya descartamos que sea un problema del servidor.",escalar,ACTUALIZACION_TICKET,,directa,
+P147,"Asunto: RE: Revisión de políticas de firewall para nuevo segmento
+Cuerpo: CECOM, el ticket 100-514222 debe derivarse a @KORVEN: Seguridad - SOC; las reglas se aplican en el firewall perimetral.",escalar,ACTUALIZACION_TICKET,,directa,
+P148,"Asunto: RE: GLPI 71300 - Falla en función de liquidaciones
+Cuerpo: Estimado @Centro de Comando, favor cerrar el ticket 300-420115; se envió a un destinatario equivocado.",descartar,OTROS,CIERRE_CANCELACION,engañosa,/runs/08584120179893633238222053569CU31
+P149,"Asunto: Snapshot de servidores
+Cuerpo: Se necesitan generar nuevos snapshots ASAP de PANAPP01 (10.64.12.30) y PANAPP02 (10.64.12.31).",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584119426993206275080274893CU06
+P150,"Asunto: Parchado mensual de servidores Windows y Linux
+Cuerpo: Para la ventana del sábado hay que coordinar con Wintel y con Linux-Unix por separado; favor registrar la atención para cada torre.",escalar,MULTI_GESTION,,indirecta,
+P151,"Asunto: Informe semanal de disponibilidad de servicios
+Cuerpo: Se adjunta el informe semanal de disponibilidad: todos los servicios críticos estuvieron sobre 99,9 %.",descartar,OTROS,NOTIFICACION,directa,
+P152,"Asunto: RE: Pase a producción N.° 118 - facturación electrónica
+Cuerpo: Para el pase N.° 118 necesitamos un ticket a DBA para ejecutar los scripts y otro a Monitoreo para la ventana de mantenimiento.",escalar,MULTI_GESTION,,directa,
+P153,"Asunto: RE: 200-17700 - actualización de firmware
+Cuerpo: Favor cancelar el cambio 200-17700; el proveedor reprogramará la actividad.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P154,"Asunto: Acceso de emergencia al data center
+Cuerpo: Por favor su apoyo con el acceso de emergencia para las 17:20: ingresa el técnico Víctor Huamaní (DNI 40771235) para cambiar un switch que está fallando.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584119251108351301388607974CU20
+P155,"Asunto: RE: Implementación de réplica de base de datos en sitio alterno
+Cuerpo: Por favor crear 2 tickets y derivar a: 1. DBA para configurar la réplica, 2. NOC para abrir los puertos entre sitios.",escalar,MULTI_GESTION,,directa,
+P156,"Asunto: RE: Alerta de disco en servidor de archivos - 300-421355
+Cuerpo: Actualizar en el ticket 300-421355 el CI afectado: el servidor correcto es SBLFS03 (10.30.4.18), no SBLFS02.",escalar,ACTUALIZACION_TICKET,,directa,
+P157,"Asunto: Habilitación de usuario en Azure para reportería
+Cuerpo: Se necesita agregar al tenant de Azure al usuario kmontes@autonorte.pe para que consuma reportes en Power BI.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584119403858275655901937302CU25
+P158,"Asunto: RE: 300-424120 - Pesquera Bahía Azul - caída del sistema de balanzas
+Cuerpo: ¿Nos pueden indicar el status del incidente 300-424120? La planta sigue detenida.",escalar,SEGUIMIENTO_TICKET,,directa,
+P159,"Asunto: Esquema REPORTES
+Cuerpo: Ticket a BD. Esquema REPORTES: actualizar la ventana horaria del job de carga a las 02:00.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119430615900488214038268CU15
+P160,"Asunto: RV: Revisión y configuración del segmento 10.44.8.0/24 – Web Filter
+Cuerpo: Estimados, no se tiene respuesta aún a esta solicitud, por favor su soporte.",escalar,SEGUIMIENTO_TICKET,,directa,/runs/08584120361267679750294909637CU09
+P161,"Asunto: Cambio de horario de job de respaldo
+Cuerpo: Hola Rocío, mover el job de respaldo de la base de ventas de las 22:00 a la 01:00.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P162,"Asunto: RE: Solicitud de snapshot antes del pase a producción
+Cuerpo: Hola Gisela, por favor modificar el ticket 100-515230: el snapshot debe tomarse el jueves a las 20:00 y no el miércoles.",escalar,ACTUALIZACION_TICKET,,directa,
+P163,"Asunto: RE: Revisión de alerta de CPU
+Cuerpo: Hola Hugo, entendido, gracias por la explicación.",descartar,OTROS,CONFIRMACION,directa,
+P164,"Asunto: Respuesta automática: Homologación BD de reservas
+Cuerpo: Estaré fuera de la oficina hasta el lunes 5 de octubre. Para temas urgentes, comunicarse con Liliana Paredes.",descartar,OTROS,NOTIFICACION,directa,/runs/08584120174776241995964794229CU07
+P165,"Asunto: Configuración de VLAN en red OT
+Cuerpo: Favor crear una VLAN en el firewall de planta con los siguientes datos: VLAN 2044, segmento 172.21.44.0/24.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584120175785897058931215779CU21
+P166,"Asunto: Revisión de alerta de CPU en servidor de aplicaciones
+Cuerpo: @Centro de Comando, revisar el consumo de CPU de QSRAPP09, que se mantiene sobre 95 % desde las 06:00.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P167,"Asunto: Alta de buzón compartido
+Cuerpo: CECOM: crear el buzón compartido compras.norte@tamarindos.pe con acceso para los usuarios de la lista adjunta.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P168,"Asunto: RE: Informe de disponibilidad
+Cuerpo: Hola Karina, muchas gracias por el informe.",descartar,OTROS,CONFIRMACION,directa,
+P169,"Asunto: RE: Apoyo - cambio de enrutamiento en firewall interno - planta Tamarindos
+Cuerpo: Team CECOM, favor de enviar estado del ticket. Muchas gracias.",escalar,SEGUIMIENTO_TICKET,,directa,/runs/08584120268977139237759249017CU07
+P170,"Asunto: RE: Servidor 10.9.140.21 sin respuesta
+Cuerpo: Estimado CECOM, generar un INC y derivar a Cloud (URGENTE): no responde ningún recurso del servidor 10.9.140.21.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119294350078913731905125CU08
+P171,"Asunto: Re: Sharepoint sin espacio de almacenamiento - [#INC-316300]
+Cuerpo: Buenos días, ¿cómo vamos con esto? Los usuarios siguen sin poder subir archivos.",escalar,SEGUIMIENTO_TICKET,,indirecta,
+P172,"Asunto: RE: Alerta filesystem /u01 al 86 % en BD de facturación
+Cuerpo: Por favor crear ticket y derivar a DBA para analizar el crecimiento del filesystem.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120183079940385846887624cU14
+P173,"Asunto: RE: Pedido de reporte de accesos VPN
+Cuerpo: @Renato Chávez, ya no lo necesitamos; favor cancelar el pedido.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P174,"Asunto: RE: RITM0059314 - Pase a producción módulo de proveedores
+Cuerpo: Sobre el RITM0059314, se solicita generar un ticket de Solicitud y cancelar el ticket 300-419870, que se registró como incidente por error.",escalar,MULTI_GESTION,,directa,/runs/08584119246176234322886446726CU06
+P175,"Asunto: RE: GLPI 71204 - Falla en función de cálculo de comisiones
+Cuerpo: Se requiere la revisión del incidente en el ambiente productivo: la función devuelve montos en cero para los vendedores de provincia.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120193338590493726947298CU08
+P176,"Asunto: RE: 200-17015 - Migración de LUNs del servidor QHPERP01
+Cuerpo: ¿Ya se asignaron los especialistas para la actividad del domingo? No hemos recibido confirmación.",escalar,SEGUIMIENTO_TICKET,,indirecta,
+P177,"Asunto: RE: 300-422160 - Cámara Andina de Pagos - errores en conciliación nocturna
+Cuerpo: Complementando lo reportado en el incidente: el error solo ocurre con los lotes que superan los 50 000 registros. Adjunto el log del proceso.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P178,"Asunto: RE: Solicitud de accesos para nuevo equipo de proyecto
+Cuerpo: Generar tres tickets, uno por torre: Base de Datos (usuarios Oracle), Wintel (carpetas compartidas) y Cloud Público (grupos de Entra ID).",escalar,MULTI_GESTION,,directa,
+P179,"Asunto: Fwd: [#SR-317780] Instalación de impresora en oficina de gerencia
+Cuerpo: Con respecto al ticket #SR-317780: instalar la impresora HP del piso 6 en las laptops de gerencia; la IP es 10.51.6.40.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,
+P180,"Asunto: RE: Tickets duplicados por alerta de disco
+Cuerpo: Se generaron dos tickets de más por la misma alerta: favor cancelar el 300-424410 y el 300-424411, y dejar solo el 300-424409.",escalar,MULTI_GESTION,,directa,
+P181,"Asunto: Solicitud de revisión por lentitud en sistema de planillas
+Cuerpo: Se requiere la revisión de la base de datos PLANDB2 por lentitud reportada por el área de RR. HH. desde el lunes.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584119251744159803292158235CU23
+P182,"Asunto: RE: 300-424660 - caída de portal web
+Cuerpo: Favor derivar el incidente 300-424660 a Cloud Público y abrir un ticket adicional a SOC para revisar el tráfico sospechoso.",escalar,MULTI_GESTION,,directa,
+P183,"Asunto: Comunicado: cambio de anexo de mesa de ayuda
+Cuerpo: A partir del 1 de octubre, la mesa de ayuda atenderá en el anexo 4400.",descartar,OTROS,NOTIFICACION,directa,
+P184,"Asunto: RE: Ticket 100-518900 - asignación de especialista
+Cuerpo: Para informar que la atención del ticket 100-518900 estará a cargo de Álvaro Soto a partir de hoy.",descartar,OTROS,NOTIFICACION,engañosa,/runs/08584120120549656643961064490CU08
+P185,"Asunto: Error al enviar correos masivos
+Cuerpo: @Centro de Comando, los correos de facturación masiva están rebotando con error 550 desde las 10:00; favor revisar.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P186,"Asunto: Programación de guardias - octubre
+Cuerpo: Hola Óscar, se adjunta el rol de guardias de octubre de los especialistas de cada torre.",descartar,OTROS,NOTIFICACION,directa,
+P187,"Asunto: RE: Requerimientos de acceso AWS – prueba de concepto Autonorte
+Cuerpo: Estimados, indicar estatus, gracias.",escalar,SEGUIMIENTO_TICKET,,directa,/runs/08584120279234788212845985491CU13
+P188,"Asunto: RE: Consulta - acceso a red y usuario VPN con conexión permanente
+Cuerpo: Buenas tardes; nos comentan el estado de la solicitud, por favor.",escalar,SEGUIMIENTO_TICKET,,directa,/runs/08584120251918142216034367488CU31
+P189,"Asunto: Mensaje no entregado: RE: Accesos VPN
+Cuerpo: No se pudo entregar el mensaje a jsifuentes@puertoanca.pe: el buzón está lleno.",descartar,OTROS,NOTIFICACION,directa,
+P190,"Asunto: RE: Integración de datos de sensores IoT en Grafana
+Cuerpo: Ya lo revisamos en interno. Cerrar ticket. Gracias.",descartar,OTROS,CIERRE_CANCELACION,engañosa,/runs/08584119269818426237966753525CU13
+P191,"Asunto: RE: [#SR-313902] Habilitación de acceso a sistema de planillas
+Cuerpo: Favor actualizar el ticket con la aprobación del gerente de RR. HH., que adjunto en este correo.",escalar,ACTUALIZACION_TICKET,,directa,
+P192,"Asunto: RE: 200-17800 - migración de LUNs
+Cuerpo: Por favor cancelar el cambio 200-17800 por falta de aprobación del cliente.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P193,"Asunto: Resultado de restauración de prueba
+Cuerpo: Hola César, la restauración de prueba del respaldo mensual finalizó correctamente en 2 h 14 min.",descartar,OTROS,NOTIFICACION,directa,
+P194,"Asunto: Solicitud de informe de planes de backup
+Cuerpo: Necesitamos un informe con el detalle de los planes de respaldo de la infraestructura que administran: frecuencia, retención y última ejecución.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584120306397659319774838510CU08
+P195,"Asunto: RE: Creación de VLAN para cámaras de seguridad
+Cuerpo: Favor de enviar el número de ticket con el que quedó registrada esta atención.",escalar,SEGUIMIENTO_TICKET,,directa,
+P196,"Asunto: Recuperar: RE: Tablespace free is too low - SALBWPRD
+Cuerpo: Renato Chávez desea recuperar el mensaje «RE: Tablespace free is too low - SALBWPRD».",descartar,OTROS,NOTIFICACION,directa,/runs/08584119441319997067431334941CU31;/runs/08584120192551044925946084125CU06
+P197,"Asunto: RE: Migración de servidor de archivos completada
+Cuerpo: La migración de SBRFS02 al nuevo storage finalizó; los accesos se mantienen iguales.",descartar,OTROS,NOTIFICACION,directa,
+P198,"Asunto: RE: 300-422690 - Autonorte Motors - error en interfaz SAP-CRM
+Cuerpo: Basis ya revisó y el problema está en el middleware de integración; por favor que el incidente continúe con el equipo de Aplicaciones.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P199,"Asunto: Integración de datos con plataforma de analítica
+Cuerpo: Favor generar ticket a las torres Cloud Público y Monitoreo: Cloud para crear el conector y Monitoreo para agregar las nuevas alertas.",escalar,MULTI_GESTION,,directa,
+P200,"Asunto: Ventana de congelamiento de cambios
+Cuerpo: Se informa que del 20 al 31 de diciembre no se ejecutarán cambios en producción, salvo emergencias.",descartar,OTROS,NOTIFICACION,directa,
+P201,"Asunto: RE: 300-427800 - impresoras sin red
+Cuerpo: Estimados CECOM, ya quedó solucionado con el reinicio del switch. Cerrar el ticket 300-427800, por favor.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P202,"Asunto: RE: Migración de servidores de aplicaciones a nueva nube
+Cuerpo: Por favor actualizar el ticket 200-17110 con la nueva fecha y generar un ticket a Backups y Restores para el respaldo previo.",escalar,MULTI_GESTION,,directa,
+P203,"Asunto: RE: Plan de contingencia - confirmación de respaldos
+Cuerpo: En base a sus consultas, adjunto mis respuestas: los cuatro servidores cuentan con respaldo diario y retención de 30 días.",descartar,OTROS,NOTIFICACION,directa,/runs/08584119447074632764210957011CU15
+P204,"Asunto: RE: Incidente de correo rebotado
+Cuerpo: El problema era del lado del remitente; pueden dar por cerrado el incidente 300-427880.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P205,"Asunto: Solicitud de sesión con especialista de red
+Cuerpo: Necesitamos agendar una sesión con un especialista de red para revisar el diseño de la nueva VLAN de visitas.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P206,"Asunto: RE: 100-515400 : Solicitud de servicio - alta de impresora en planta
+Cuerpo: La impresora cambió de ubicación: ahora estará en el almacén 3 con IP 10.51.7.33. Lo demás del pedido se mantiene.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P207,"Asunto: RE: Configuración de alertas de disco en Zabbix para nuevos servidores
+Cuerpo: Favor de enviar el número de ticket y el nombre del especialista asignado.",escalar,SEGUIMIENTO_TICKET,,directa,
+P208,"Asunto: RE: Solicitud de acceso remoto para proveedor
+Cuerpo: El proveedor ya no vendrá; favor anular la solicitud 100-520050.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P209,"Asunto: RE: We detected synchronization errors in your directory
+Cuerpo: Para Qori Sur, favor el apoyo con el ticket a Wintel para la revisión de los errores de sincronización.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120331034540295640129171CU27
+P210,"Asunto: RE: Revisión y configuración de segmento para Web Filter
+Cuerpo: Adjunto la revisión del especialista: el segmento 10.44.8.0/24 ya se encuentra en la política de navegación estándar.",descartar,OTROS,NOTIFICACION,directa,/runs/08584120286866884053343398632CU13
+P211,"Asunto: Restablecer contraseña de usuario de Citrix
+Cuerpo: Favor de restablecer la contraseña del usuario rlozano@caunidos.pe para el acceso a Citrix.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584120308155087168905651964CU27
+P212,"Asunto: RE: Error al iniciar BD de reportes
+Cuerpo: De acuerdo, proceder en ambientes bajos.",descartar,OTROS,CONFIRMACION,directa,/runs/08584120360460897976407774779CU15
+P213,"Asunto: RE: 100-517620 - acceso a carpeta de planos
+Cuerpo: Favor reasignar el 100-517620 a Wintel y cancelar el 100-517615, que quedó duplicado.",escalar,MULTI_GESTION,,directa,
+P214,"Asunto: RE: Monitoreo de nuevos servidores de la nube privada
+Cuerpo: Les comparto el listado final de los 12 servidores con sus IPs para completar la solicitud 100-514955 que ya tienen registrada.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P215,"Asunto: RE: Solicitud de listado de usuarios con licencia de Power BI - [#SR-316102]
+Cuerpo: Amable recordatorio del SR-316102, lo necesitamos para la auditoría del viernes.",escalar,SEGUIMIENTO_TICKET,,directa,
+P216,"Asunto: Resumen de alertas de backup - 17/09
+Cuerpo: Todos los trabajos de respaldo de la noche finalizaron con éxito, excepto dos en advertencia por tiempo de ejecución.",descartar,OTROS,NOTIFICACION,directa,
+P217,"Asunto: Revisión de espacio en tablespace
+Cuerpo: El tablespace PSAPVENTAS tiene menos de 250 GB libres; favor ampliarlo.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P218,"Asunto: RE: Error de categorización de tickets de la alerta de backup
+Cuerpo: Cancelar los tickets 300-424880 y 300-424881 y generar uno solo a Backups y Restores.",escalar,MULTI_GESTION,,directa,
+P219,"Asunto: RE: Error de certificado en integración SAP con plataforma de pagos
+Cuerpo: Se identificó que el certificado vencido es el del lado del banco, no el nuestro; dejarlo registrado en el caso abierto.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P220,"Asunto: Preparación de ambiente para auditoría externa
+Cuerpo: Necesitamos que se habilite el acceso de los auditores en SAP y, además, un reporte de usuarios privilegiados de la base de datos; son equipos distintos, cada uno con su atención.",escalar,MULTI_GESTION,,indirecta,
+P221,"Asunto: RE: Actualización de versión de agente de monitoreo
+Cuerpo: Favor actualizar el agente de Zabbix a la versión 7.0 en los servidores de la lista adjunta.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,
+P222,"Asunto: Revisión de certificados próximos a vencer
+Cuerpo: Estimados CECOM, necesitamos el listado de certificados SSL que vencen en los próximos 60 días en los servidores web.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P223,"Asunto: RE: Solicitud de apagado de servidores de pruebas
+Cuerpo: Confirmo que se pueden apagar; no hay usuarios conectados.",descartar,OTROS,CONFIRMACION,directa,
+P224,"Asunto: RE: Soporte DBA - scripts de mantenimiento
+Cuerpo: Proceder. Este pago debe registrarse en el Excel de solicitudes y pagos de servicios.",descartar,OTROS,CONFIRMACION,directa,/runs/08584120308827813004105244956CU27
+P225,"Asunto: RE: Problemas de certificado de SAP a plataforma de integración
+Cuerpo: ¡Gracias, Jorge!",descartar,OTROS,CONFIRMACION,directa,/runs/08584120331770589766887011004CU20
+P226,"Asunto: RE: [#SR-316230] Recuperación de correo eliminado
+Cuerpo: Estimados de CECOM, con respecto al ticket #SR-316230: ¿ya se pudo recuperar el correo? La usuaria sigue consultando.",escalar,SEGUIMIENTO_TICKET,,directa,
+P227,"Asunto: RE: Accesos a tablas de SAP HANA en producción
+Cuerpo: Buenos días, favor de indicar el estado de la solicitud de accesos.",escalar,SEGUIMIENTO_TICKET,,directa,
+P228,"Asunto: RE: Error en sincronización de usuarios con Entra ID
+Cuerpo: @Centro de Comando, favor reasignar el ticket 100-513477 a @KORVEN: Administradores Wintel; la causa está en el controlador de dominio, no en Cloud.",escalar,ACTUALIZACION_TICKET,,directa,
+P229,"Asunto: RE: Lentitud en reportes de Power BI
+Cuerpo: La mejora aplicada no duró: desde ayer los reportes vuelven a tardar más de cinco minutos. Favor volver a abrir el caso 100-514002.",escalar,ACTUALIZACION_TICKET,,directa,
+P230,"Asunto: RE: Reinicio inesperado de servidor SBLAPP04
+Cuerpo: Por favor generar un WO a Wintel para que revise la causa raíz del reinicio; el servidor ya se había reiniciado el 12/09.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119282089440431991862657CU00
+P231,"Asunto: RE: Cambio de contraseña de cuenta de servicio
+Cuerpo: Recibido. Actualizamos la credencial en el aplicativo.",descartar,OTROS,CONFIRMACION,engañosa,
+P232,"Asunto: Notificación: ticket 300-426780 resuelto
+Cuerpo: El ticket 300-426780 ha sido resuelto. Si el problema persiste, responda a este correo.",descartar,OTROS,NOTIFICACION,engañosa,
+P233,"Asunto: Acceso a tabla SAP HANA PRD
+Cuerpo: Agregar acceso de solo lectura a las tablas VBAK y VBAP del ambiente PRD para el usuario RPT_COMERCIAL.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584119434253345078984782438CU20
+P234,"Asunto: RE: Zabbix agent: active checks are not available | PC-ALM07
+Cuerpo: Por favor generar ticket a Wintel para indicar el motivo de la inhibición del agente.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119276168192766812149882CU19
+P235,"Asunto: Confirmación de recepción de solicitud
+Cuerpo: Hemos recibido su solicitud y será atendida según los tiempos de servicio acordados.",descartar,OTROS,NOTIFICACION,directa,
+P236,"Asunto: RE: Seguimiento de casos de uso en firewalls
+Cuerpo: Se requiere su apoyo para ejecutar las pruebas de activación de los casos de uso en los firewalls de la sede principal; adjunto el plan.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119293765977022442048320CU30
+P237,"Asunto: RE: 300-420331 - Mercados Qhapaq - High CPU en QHPERP01
+Cuerpo: Favor actualizar el ticket 300-420331 a @COT: Gestión de Monitoreo, el umbral de la alerta está mal configurado.",escalar,ACTUALIZACION_TICKET,,directa,
+P238,"Asunto: RV: Resolved in 40m: High URL is down on portal de clientes
+Cuerpo: Favor el apoyo con el ticket a @COT: Gestión de Monitoreo para actualizar el servidor monitoreado a la nueva IP 10.70.2.15.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120123559434439396462741CU03
+P239,"Asunto: RE: 300-428010 - caída de portal de corredores
+Cuerpo: El portal volvió a funcionar tras la ventana del proveedor. Favor cerrar el incidente.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P240,"Asunto: RE: 300-423877 - Logística Puerto Anca - pérdida de conectividad en almacén Callao
+Cuerpo: Quería saber cómo va la atención del incidente; el almacén sigue operando con el enlace de respaldo.",escalar,SEGUIMIENTO_TICKET,,indirecta,
+P241,"Asunto: RE: Configuración de VLAN para red OT
+Cuerpo: Perfecto, CECOM, ya funciona. Muchas gracias por el apoyo.",descartar,OTROS,CONFIRMACION,directa,
+P242,"Asunto: RE: [#INC-319420] Correo no sincroniza en móviles
+Cuerpo: Ya sincroniza correctamente. Gracias por el apoyo.",descartar,OTROS,CONFIRMACION,engañosa,
+P243,"Asunto: RE: Solicitud de acceso de emergencia al data center
+Cuerpo: Favor confirmarnos el número de ticket generado para el ingreso.",escalar,SEGUIMIENTO_TICKET,,directa,
+P244,"Asunto: Re: Asistencia técnica: habilitar puertos de aplicación - [#SR-318677]
+Cuerpo: Respecto al ticket: se habilitó lo solicitado y se validó la conectividad con el usuario.",descartar,OTROS,NOTIFICACION,engañosa,/runs/08584119276975791923434464002CU16
+P245,"Asunto: RE: Cambio de ventana de mantenimiento
+Cuerpo: De acuerdo con la nueva fecha.",descartar,OTROS,CONFIRMACION,directa,
+P246,"Asunto: RE: [#SR-319800] Instalación de software
+Cuerpo: El usuario ya lo instaló con el paquete del portal; pueden cerrar el SR-319800.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P247,"Asunto: RE: Propuesta de horario para sesión técnica
+Cuerpo: @Lucía Benavente, me parece bien el jueves a las 15:00, gracias.",descartar,OTROS,CONFIRMACION,directa,
+P248,"Asunto: RE: RITM0063390 - creación de usuario SAP para nuevo analista
+Cuerpo: Crear el usuario SAP en PRD de acuerdo al formulario adjunto; reemplaza al usuario JCASTRO.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584119413089412112726666843CU09
+P249,"Asunto: RE: Renovación de certificado SSL wildcard
+Cuerpo: Para informar que se procedió con la renovación del certificado en el Web Dispatcher y se validó el acceso.",descartar,OTROS,NOTIFICACION,directa,/runs/08584119394423724154329423180CU30
+P250,"Asunto: RE: 300-427600 - alerta de disco en AVNAPP01
+Cuerpo: Se depuraron los logs y la alerta se normalizó; favor cerrar el incidente 300-427600.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P251,"Asunto: Instalación de certificado en servidor web
+Cuerpo: Estimados de CECOM, instalar el certificado adjunto en el IIS de AVNWEB01 y reiniciar el sitio fuera de horario.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P252,"Asunto: RE: Solicitud de licencia de Power BI
+Cuerpo: Ya no es necesario, la usuaria usará una licencia que se liberó. Cerrar el ticket 100-520120.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P253,"Asunto: RE: 100-519720 - restauración de archivos
+Cuerpo: La carpeta apareció en otra ruta; favor cerrar el ticket, ya no se requiere la restauración.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P254,"Asunto: RE: 100-513650 : Solicitud de servicio - cambio de rack en sala de servidores
+Cuerpo: Favor corregir el tipo del ticket 100-513650: no es una solicitud sino un cambio programado.",escalar,ACTUALIZACION_TICKET,,directa,
+P255,"Asunto: Apagado de servidores de pruebas
+Cuerpo: Por favor detener los servicios y apagar los servidores AUTTST01 y AUTTST02, ya no se usarán.",clasificar,OTROS,NUEVA_SOLICITUD,directa,
+P256,"Asunto: RE: Solicitud de archivos httpd.conf
+Cuerpo: Se adjuntan los archivos solicitados de cada servidor: CAPPROXY03 y CAPPROXY04.",descartar,OTROS,NOTIFICACION,directa,/runs/08584120352978137783837767535CU25
+P257,"Asunto: RE: Ticket de soporte para nueva sede - Huancayo
+Cuerpo: Favor generar el ticket a NOC para la instalación del enlace de la nueva sede.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,
+P258,"Asunto: RE: 300-424301 - error de replicación
+Cuerpo: Favor cancelar el ticket 300-424301 y generar uno nuevo a DBA como requerimiento; no es un incidente.",escalar,MULTI_GESTION,,directa,
+P259,"Asunto: INC0053008 - SAP: remediación de S/4HANA en producción
+Cuerpo: Favor su apoyo con la revisión del siguiente incidente: la remediación de S/4HANA en producción falló en el paso de post-procesamiento.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,
+P260,"Asunto: RE: Homologación BD de reservas – revisión de controles de seguridad
+Cuerpo: Agregar al ticket 100-512385 la siguiente información: durante el restore se deben detener temporalmente las conexiones del servidor ALBIAPQA01 (usuario usrresbatch), porque se reconectan solas e impiden completar el procedimiento.",escalar,ACTUALIZACION_TICKET,,directa,/runs/08584119446461869440553715345CU04
+P261,"Asunto: RE: 300-423015 - Mercados Qhapaq - terminales POS sin conexión
+Cuerpo: Dato adicional para el incidente: solo están afectadas las tiendas conectadas por el proveedor de fibra secundario.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P262,"Asunto: RE: 100-516010 : Solicitud de servicio - creación de buzón compartido
+Cuerpo: Solicito el estado del ticket 100-516010.",escalar,SEGUIMIENTO_TICKET,,directa,
+P263,"Asunto: RE: 300-422315 - Concretos Andinos Unidos - base de datos de despachos bloqueada
+Cuerpo: Este caso lo está viendo Wintel, pero el bloqueo es a nivel de la base de datos. Debe pasar a DBA.",escalar,ACTUALIZACION_TICKET,,indirecta,
+P264,"Asunto: RE: Reemplazo de disco en storage de la sede central - 300-423610
+Cuerpo: ¿Cuál es el estado del incidente 300-423610? El proveedor ya confirmó el envío del disco.",escalar,SEGUIMIENTO_TICKET,,directa,
+P265,"Asunto: RE: Accesos a consola de monitoreo para equipo de auditoría
+Cuerpo: ¿Con qué número de ticket quedó registrado este pedido? Lo necesitamos para el informe.",escalar,SEGUIMIENTO_TICKET,,directa,
+P266,"Asunto: RE: 100-519300 : Solicitud de servicio - creación de usuario VPN
+Cuerpo: Validado, el usuario conecta sin problemas.",descartar,OTROS,CONFIRMACION,engañosa,
+P267,"Asunto: RE: 300-422004 - Textiles Sierra Blanca - impresoras de planta sin red
+Cuerpo: Solo se restableció la mitad de las impresoras. Reabrir el 300-422004 para continuar con las restantes.",escalar,ACTUALIZACION_TICKET,,directa,
+P268,"Asunto: RE: Actualización de estado - incidente 300-427001
+Cuerpo: Estado actual del incidente 300-427001: el proveedor reemplazó la tarjeta y el enlace está estable. Seguimos monitoreando.",descartar,OTROS,NOTIFICACION,engañosa,
+P269,"Asunto: RE: 100-516440 : Solicitud de servicio - renovación de certificado wildcard
+Cuerpo: Favor de enviar estado del ticket 100-516440; el certificado vence el viernes.",escalar,SEGUIMIENTO_TICKET,,directa,
+P270,"Asunto: Mantenimiento de base de datos - esta noche
+Cuerpo: Para conocimiento de CECOM: esta noche se ejecutará el mantenimiento de índices de la base de ventas; es normal que aparezcan alertas de CPU entre la 01:00 y las 02:00.",descartar,OTROS,NOTIFICACION,directa,
+P271,"Asunto: RE: Pase a producción N.° 120 - resultado
+Cuerpo: El pase a producción N.° 120 se ejecutó con éxito; las validaciones funcionales quedan a cargo del usuario.",descartar,OTROS,NOTIFICACION,directa,
+P272,"Asunto: Re: Asistencia técnica: poner carpeta en máquina - [#SR-318455]
+Cuerpo: Respecto al ticket: se revisó el equipo del usuario y la carpeta ya se encuentra disponible en el escritorio.",descartar,OTROS,NOTIFICACION,engañosa,/runs/08584120153078781199142633020CU16
+P273,"Asunto: Encuesta de satisfacción del ticket 100-519130
+Cuerpo: Ayúdenos a mejorar: califique la atención recibida en el ticket 100-519130.",descartar,OTROS,NOTIFICACION,engañosa,
+P274,"Asunto: RE: Accesos a base de datos Oracle - SCA2026-011204
+Cuerpo: Favor actualizar tk 100-514870: el usuario correcto es ext_jsifuentes, el anterior tenía un error de tipeo.",escalar,ACTUALIZACION_TICKET,,directa,
+P275,"Asunto: RE: Pase a producción N.° 121
+Cuerpo: Conforme, validado por el usuario funcional.",descartar,OTROS,CONFIRMACION,directa,
+P276,"Asunto: RE: Comunicación hacia controladores de dominio desde el segmento 10.180.0.0/16
+Cuerpo: El ticket figura como resuelto, pero la comunicación sigue fallando desde el nuevo segmento. Por favor reabrirlo para continuar la atención.",escalar,ACTUALIZACION_TICKET,,directa,/runs/08584120326250100020247009025CU01
+P277,"Asunto: Re: Asistencia técnica: recursos para nuevo empleado de mantenimiento - [#SR-318520]
+Cuerpo: Respecto al ticket: se procedió con lo solicitado. Se enviaron las credenciales al jefe directo.",descartar,OTROS,NOTIFICACION,engañosa,/runs/08584119313864366668372987481CU07
+P278,"Asunto: Sede Lima || Agrícola Los Tamarindos || acceso a carpetas de red
+Cuerpo: Favor de brindar acceso a las carpetas de red \\10.73.2.40\Finanzas y \\10.73.2.40\Compras al usuario jhuaman@tamarindos.pe.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584119333227099403984480307CU27
+P279,"Asunto: RE: Solicitud de pruebas de contingencia
+Cuerpo: Generar ticket a Backups y Restores para la restauración de prueba y otro a NOC para la conmutación del enlace.",escalar,MULTI_GESTION,,directa,
+P280,"Asunto: RE: [AT]-[WO]-Creación de recursos para entorno productivo
+Cuerpo: Buen día, favor indicar el ticket registrado y la fecha estimada de atención.",escalar,SEGUIMIENTO_TICKET,,directa,
+P281,"Asunto: Re: Asistencia técnica: actualización de sede en Outlook - [#SR-317603]
+Cuerpo: Su apoyo con la actualización de la sede de los usuarios indicados en el Excel adjunto.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120120549656644961064490CU22
+P282,"Asunto: RE: 100-514410 : Solicitud de servicio - ampliación de disco en CAUHANA02
+Cuerpo: Actualizar el ticket 100-514410: la ampliación debe ser de 200 GB y no de 100 GB como se indicó inicialmente.",escalar,ACTUALIZACION_TICKET,,directa,
+P283,"Asunto: Desbloqueo de web
+Cuerpo: Solicito su apoyo para habilitar la web del libro de reclamaciones: https://reclamos.qhapaq.pe.",clasificar,OTROS,NUEVA_SOLICITUD,directa,/runs/08584119394423724153329423180CU03
+P284,"Asunto: RE: Actualización del agente de monitoreo
+Cuerpo: Perfecto, validamos que los servidores ya reportan con la nueva versión.",descartar,OTROS,CONFIRMACION,engañosa,
+P285,"Asunto: RE: Cambio de contraseña de cuenta de servicio en base de datos
+Cuerpo: ¿Nos indican el número de ticket de este cambio, por favor?",escalar,SEGUIMIENTO_TICKET,,directa,
+P286,"Asunto: Recall: RE: Accesos a base de datos Oracle
+Cuerpo: ntorres@korven.pe would like to recall the message «RE: Accesos a base de datos Oracle».",descartar,OTROS,NOTIFICACION,directa,
+P287,"Asunto: RE: Solicitud de accesos a carpeta de contabilidad - [#SR-316800]
+Cuerpo: Estimados de CECOM, con respecto al ticket : #SR-316800, favor indicar si ya fue atendido.",escalar,SEGUIMIENTO_TICKET,,directa,
+P288,"Asunto: Fwd: Asistencia técnica: acceso a carpeta de planos - [#SR-312044]
+Cuerpo: Estimados de CECOM, con respecto al ticket #SR-312044: dar acceso de solo lectura a la ruta \\10.51.3.20\Compras\Planos al usuario lmedina@quorisur.pe.",clasificar,OTROS,NUEVA_SOLICITUD,engañosa,/runs/08584120210525575315491910766CU26
+P289,"Asunto: RE: Autonorte Motors - AUTSAPQAS - Warning memory utilization (>90% for 15m) - 300-419045
+Cuerpo: El servidor tiene administración de sistema operativo; el consumo de memoria debe revisarse a nivel de SO y no de base de datos. Que el caso lo vea Wintel.",escalar,ACTUALIZACION_TICKET,,indirecta,/runs/08584120290477599962839174000CU02
+P290,"Asunto: RE: Reunión de seguimiento del proyecto de migración
+Cuerpo: Se comparte el acta de la reunión de seguimiento del jueves con los acuerdos y responsables.",descartar,OTROS,NOTIFICACION,engañosa,
+P291,"Asunto: Notificación de cambio de contraseña
+Cuerpo: Se informa que la contraseña de la cuenta de servicio svc_backup se cambió según la política trimestral.",descartar,OTROS,NOTIFICACION,directa,
+P292,"Asunto: RE: Acta de reunión de seguimiento
+Cuerpo: Gracias por compartir el acta; conformes con lo registrado.",descartar,OTROS,CONFIRMACION,engañosa,
+P293,"Asunto: RE: Nuevos usuarios en herramienta de monitoreo
+Cuerpo: Hola Mauricio, ya ingresamos con los usuarios creados. Gracias.",descartar,OTROS,CONFIRMACION,directa,
+P294,"Asunto: RE: 300-425130 - lentitud en portal de proveedores
+Cuerpo: Favor agregar al ticket 300-425130 los logs adjuntos y generar un ticket a SOC para revisar las IP que están saturando el portal.",escalar,MULTI_GESTION,,directa,
+P295,"Asunto: RE: RITM0064020 - alta de transacción en rol
+Cuerpo: Favor cerrar el RITM0064020, se atendió directamente con el equipo funcional.",descartar,OTROS,CIERRE_CANCELACION,engañosa,
+P296,"Asunto: RE: Alta de nuevo cliente en plataforma de pagos
+Cuerpo: Del lado de infraestructura hay que abrir los puertos en el firewall (SOC) y crear el usuario de base de datos (DBA). Favor gestionarlo con cada torre por separado.",escalar,MULTI_GESTION,,indirecta,
+P297,"Asunto: RE: Solicitud de creación de cuenta de correo - [#SR-313610]
+Cuerpo: Agregar al ticket la siguiente información: nombre completo Carla Mendívil Soto, cargo analista de compras, jefe directo Jorge Sifuentes, sede Arequipa.",escalar,ACTUALIZACION_TICKET,,directa,
+P298,"Asunto: RE: 100-512990 : Solicitud de servicio - instalación de certificado SSL
+Cuerpo: El certificado se instaló solo en uno de los dos nodos. Favor reabrir el ticket 100-512990 para completar el segundo nodo.",escalar,ACTUALIZACION_TICKET,,directa,
+P299,"Asunto: RE: Solicitud de archivos httpd.conf
+Cuerpo: Gracias, Teresa. Saludos.",descartar,OTROS,CONFIRMACION,directa,/runs/08584120349399177139993110344CU23
+P300,"Asunto: RE: Solicitud de redimensionamiento de instancias EC2
+Cuerpo: Favor cancelar cambios. Gracias.",descartar,OTROS,CIERRE_CANCELACION,engañosa,/runs/08584119249967228826879882924CU09

@@ -1,0 +1,31 @@
+# Detección de correos que el Centro de Comando (CECOM) debe escalar a una persona.
+# El modelo elige una casuística; se escala cuando la casuística no es OTROS, así que
+# P(escalar) = 1 - P(OTROS). Guía completa: data/escalamiento/README.md
+
+dataset:
+  path: data/escalamiento/principal.csv # el lote de ajuste está en data/escalamiento/ajuste.csv
+  id_column: id
+  state_fields: [texto] # asunto y cuerpo en un solo texto
+
+questions:
+  - name: casuistica
+    kind: choice
+    gold_column: casuistica
+    instructions: "¿Qué tipo de gestión pide este correo?"
+    options:
+      ACTUALIZACION_TICKET: "Pide actualizar, reasignar, derivar o reabrir un ticket existente, o agregarle información."
+      SEGUIMIENTO_TICKET: "Consulta el estado o el número de un ticket o solicitud existente, o reclama que sigue sin respuesta."
+      MULTI_GESTION: "Pide varias acciones sobre tickets: crear, actualizar, cerrar o cancelar más de un ticket, o combinarlas."
+      OTROS: "Pide trabajo técnico nuevo para un solo equipo, cierra o cancela un solo ticket, agradece, confirma o solo informa."
+
+backends:
+  laya:
+    kind: laya
+    base_url: http://127.0.0.1:8000
+    model: multilingual # los correos están en español
+
+backend: laya
+
+run:
+  output_dir: runs
+  max_attempts: 3

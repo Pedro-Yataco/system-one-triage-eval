@@ -15,3 +15,5 @@ dist/
 # Resultados de corridas y datos reales
 runs/
 data/private/
+
+temp/
